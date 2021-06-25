@@ -8,12 +8,17 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
@@ -28,9 +33,12 @@ import utility.ExtentManager;
 public class BaseClass {
 	
 	public static  WebDriver driver = null;
-	public Properties config= new Properties();
+	public static Properties config= new Properties();
 	public ExtentReports extRep= ExtentManager.getInstance();
 	public static ExtentTest extTest;
+	public static WebDriverWait wait= null;
+	public static Alert alert= null;
+	public static Actions action= null;
 	
 	@BeforeSuite   // @Before annotated method will be executed before all test classes configured to be executed in testNG xml file
 	public void init() throws IOException

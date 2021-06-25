@@ -6,13 +6,14 @@
   </listeners>
   <test thread-count="5" name="regression(failed)">
     <classes>
-      <class name="test.TC003FilterGiftCards">
+      <class name="test.TC005DeliverTo">
         <methods>
           <include name="teardown"/>
-          <include name="verifyGCFilter"/>
+          <include name="verifyDeliverToCountry"/>
+          <include name="verifyDeliverToPostalCode"/>
           <include name="init"/>
         </methods>
-      </class> <!-- test.TC003FilterGiftCards -->
+      </class> <!-- test.TC005DeliverTo -->
     </classes>
   </test> <!-- regression(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -20,8 +20,8 @@ public class TC003FilterGiftCards extends BaseClass {
 	GiftCardsPage gcp;
 	HomePage hp;
 	
-	@Test
-	public void verifyGCFilter ()
+	@Test (priority=2)
+	public void verifyGCFilter () throws InterruptedException
 	{
 		
 		extTest.log(LogStatus.INFO, "Gift Card test has started");

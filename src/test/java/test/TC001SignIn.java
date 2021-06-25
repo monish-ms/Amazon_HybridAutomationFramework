@@ -88,7 +88,7 @@ public class TC001SignIn extends BaseClass{
 	}*/
 	
 	
-	@Test(dataProvider="inputs")
+	@Test(dataProvider="inputs", priority=4)
 	public void verifyLogin(String uname, String pwd)
 	{
 		System.out.println("Test has started");
@@ -104,6 +104,8 @@ public class TC001SignIn extends BaseClass{
            extTest.log(LogStatus.INFO, "Clicked SignIn button");  
 			
 			
+            // hp.clickNavLogo();
+           
 			sp= new SignInPage (driver);
 			
 		
@@ -129,12 +131,12 @@ public class TC001SignIn extends BaseClass{
 	
 	
 	
-	@AfterMethod 
+	/*@AfterMethod 
 	public void tearDown()
 	{
 		driver.close();
 		System.out.println("After method has been executed");
 		
-	}
+	}*/
 
 }

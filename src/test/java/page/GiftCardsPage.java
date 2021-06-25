@@ -25,9 +25,10 @@ public class GiftCardsPage extends BasePage {
 	public WebElement chkboxFrench;
 	
 	
-	public void clickChkboxFrench()
+	public void clickChkboxFrench() throws InterruptedException
 	{
 		chkboxFrench.click();
+		Thread.sleep(3000);
 	}
 	
 	

@@ -28,7 +28,7 @@ public class Utilities extends BaseClass {
 		File srcFile= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		Date d= new Date();
 		screenshotName= d.toString().replace(":", "_").replace(" ","_") + ".png";
-		FileUtils.copyFile(srcFile,new File(System.getProperty("user.dir") + "\\target" + screenshotName));
+		FileUtils.copyFile(srcFile,new File(System.getProperty("user.dir") + "\\target\\" + screenshotName));
 		
 		
 	}
