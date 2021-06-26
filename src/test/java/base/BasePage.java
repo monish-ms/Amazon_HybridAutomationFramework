@@ -14,7 +14,7 @@ public class BasePage {
 	
 	public BasePage (WebDriver driver)
 	{
-		PageFactory.initElements(driver,this); // comment?
+		PageFactory.initElements(driver,this); // using Page Factory to intialize webdriver object to find elements when pages are loaded
 	}
 
 }

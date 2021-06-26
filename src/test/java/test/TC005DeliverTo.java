@@ -29,7 +29,7 @@ public class TC005DeliverTo extends BaseClass {
 		hp.clickDeliverToPostalCode("L3S","0B9");
 		extTest.log(LogStatus.INFO, "Deliver to PostalCode has been executed");
 	
-		  hp.clickNavLogo();
+		
 			}
 	
 	@Test (priority =4)

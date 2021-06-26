@@ -28,17 +28,17 @@ import utility.ExtentManager;
 /**
  * @author monis
  *
- *We initialize WebDriver, 
+ *
  */
 public class BaseClass {
 	
-	public static  WebDriver driver = null;
-	public static Properties config= new Properties();
-	public ExtentReports extRep= ExtentManager.getInstance();
-	public static ExtentTest extTest;
-	public static WebDriverWait wait= null;
-	public static Alert alert= null;
-	public static Actions action= null;
+	public static  WebDriver driver = null;     // declaring Webdriver object
+	public static Properties config= new Properties();  // Instantiating Properties object
+	public ExtentReports extRep= ExtentManager.getInstance(); //Instantiating Extent Reports object
+	public static ExtentTest extTest; // declaring Extent Test object
+	public static WebDriverWait wait= null;  //declaring WebDriverWait object
+	public static Alert alert= null; //declaring Alert object
+	public static Actions action= null; // declaring Actions object
 	
 	@BeforeSuite   // @Before annotated method will be executed before all test classes configured to be executed in testNG xml file
 	public void init() throws IOException

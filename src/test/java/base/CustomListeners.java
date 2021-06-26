@@ -40,7 +40,7 @@ try {
 		extTest.log(LogStatus.PASS,result.getName().toUpperCase()+ " PASS");
 		extTest.log(LogStatus.INFO, extTest.addScreenCapture(utility.Utilities.screenshotName));
 		extRep.endTest(extTest);
-		extRep.flush();
+		extRep.flush(); // captures action in html report
 		
 		
 		
