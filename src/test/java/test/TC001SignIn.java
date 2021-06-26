@@ -88,7 +88,7 @@ public class TC001SignIn extends BaseClass{
 	}*/
 	
 	
-	@Test(dataProvider="inputs", priority=4)
+	@Test(dataProvider="inputs", priority=6)
 	public void verifyLogin(String uname, String pwd)
 	{
 		System.out.println("Test has started");

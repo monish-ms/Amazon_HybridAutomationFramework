@@ -10,11 +10,12 @@
      <!-- <class name="test.TC002Search"/> --> <class name="test.TC002Search"/>
       <!-- <class name="test.TC003FilterGiftCards"/> --> <class name="test.TC003FilterGiftCards"/> 
       <!-- <class name="test.TC004AddToCart"/>--> <class name="test.TC004AddToCart"/>
-      <!--  <class name ="test.TC005DeliverTo"/>--> 
-    <!--   <methods>
-      <include name="verifyDeliverToPostalCode"/>
-      </methods> -->
-      <!-- <class name="test.TC001SignIn"/> --> <class name="test.TC001SignIn"/> 
+      <!--  <class name ="test.TC005DeliverTo"/>--> <class name ="test.TC005DeliverTo">  
+       <methods>
+      <exclude name="verifyDeliverToPostalCode"/>                                               
+      </methods>
+      </class>
+      <!-- <class name="test.TC001SignIn"/> -->  <class name="test.TC001SignIn"/>
     </classes>
   </test> <!-- regression -->
 </suite> <!-- Suite -->

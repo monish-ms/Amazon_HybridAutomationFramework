@@ -1,29 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="9" total="14" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="21681" started-at="2021-06-24T21:46:24Z" finished-at="2021-06-24T21:46:46Z">
+  <suite name="Suite" duration-ms="47041" started-at="2021-06-26T05:29:41Z" finished-at="2021-06-26T05:30:28Z">
     <groups>
     </groups>
-    <test name="UnitTest" duration-ms="21681" started-at="2021-06-24T21:46:24Z" finished-at="2021-06-24T21:46:46Z">
-      <class name="test.TC005DeliverTo">
-        <test-method status="PASS" signature="init()[pri:0, instance:test.TC005DeliverTo@53aad5d5]" name="init" is-config="true" duration-ms="9184" started-at="2021-06-24T21:46:15Z" finished-at="2021-06-24T21:46:24Z">
+    <test name="regression" duration-ms="47041" started-at="2021-06-26T05:29:41Z" finished-at="2021-06-26T05:30:28Z">
+      <class name="test.TC002Search">
+        <test-method status="PASS" signature="init()[pri:0, instance:test.TC002Search@4ef37659]" name="init" is-config="true" duration-ms="7823" started-at="2021-06-26T05:29:33Z" finished-at="2021-06-26T05:29:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="verifyDeliverToCountry()[pri:5, instance:test.TC005DeliverTo@53aad5d5]" name="verifyDeliverToCountry" duration-ms="17394" started-at="2021-06-24T21:46:24Z" finished-at="2021-06-24T21:46:42Z">
+        <test-method status="PASS" signature="verifySearch()[pri:1, instance:test.TC002Search@4ef37659]" name="verifySearch" duration-ms="3337" started-at="2021-06-26T05:29:41Z" finished-at="2021-06-26T05:29:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyDeliverToCountry -->
-        <test-method status="PASS" signature="verifyDeliverToPostalCode()[pri:6, instance:test.TC005DeliverTo@53aad5d5]" name="verifyDeliverToPostalCode" duration-ms="2774" started-at="2021-06-24T21:46:42Z" finished-at="2021-06-24T21:46:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyDeliverToPostalCode -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:test.TC005DeliverTo@53aad5d5]" name="teardown" is-config="true" duration-ms="3885" started-at="2021-06-24T21:46:46Z" finished-at="2021-06-24T21:46:50Z">
+        </test-method> <!-- verifySearch -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:test.TC002Search@4ef37659]" name="teardown" is-config="true" duration-ms="2713" started-at="2021-06-26T05:30:28Z" finished-at="2021-06-26T05:30:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
+      </class> <!-- test.TC002Search -->
+      <class name="test.TC004AddToCart">
+        <test-method status="PASS" signature="verifyAddToCart()[pri:3, instance:test.TC004AddToCart@37858383]" name="verifyAddToCart" duration-ms="11759" started-at="2021-06-26T05:29:51Z" finished-at="2021-06-26T05:30:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCart -->
+      </class> <!-- test.TC004AddToCart -->
+      <class name="test.TC001SignIn">
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String)[pri:6, instance:test.TC001SignIn@1bb266b3]" name="verifyLogin" duration-ms="7281" started-at="2021-06-26T05:30:20Z" data-provider="inputs" finished-at="2021-06-26T05:30:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[monish30591@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mon@amz123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+      </class> <!-- test.TC001SignIn -->
+      <class name="test.TC005DeliverTo">
+        <test-method status="PASS" signature="verifyDeliverToCountry()[pri:4, instance:test.TC005DeliverTo@4e268090]" name="verifyDeliverToCountry" duration-ms="16990" started-at="2021-06-26T05:30:02Z" finished-at="2021-06-26T05:30:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeliverToCountry -->
       </class> <!-- test.TC005DeliverTo -->
-    </test> <!-- UnitTest -->
+      <class name="test.TC003FilterGiftCards">
+        <test-method status="PASS" signature="verifyGCFilter()[pri:2, instance:test.TC003FilterGiftCards@776b83cc]" name="verifyGCFilter" duration-ms="5350" started-at="2021-06-26T05:29:45Z" finished-at="2021-06-26T05:29:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGCFilter -->
+      </class> <!-- test.TC003FilterGiftCards -->
+    </test> <!-- regression -->
   </suite> <!-- Suite -->
 </testng-results>

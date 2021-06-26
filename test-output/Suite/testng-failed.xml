@@ -9,11 +9,24 @@
       <class name="test.TC005DeliverTo">
         <methods>
           <include name="teardown"/>
-          <include name="verifyDeliverToCountry"/>
           <include name="verifyDeliverToPostalCode"/>
           <include name="init"/>
         </methods>
       </class> <!-- test.TC005DeliverTo -->
+      <class name="test.TC004AddToCart">
+        <methods>
+          <include name="teardown"/>
+          <include name="verifyAddToCart"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- test.TC004AddToCart -->
+      <class name="test.TC001SignIn">
+        <methods>
+          <include name="teardown"/>
+          <include name="verifyLogin" invocation-numbers="0"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- test.TC001SignIn -->
     </classes>
   </test> <!-- regression(failed) -->
 </suite> <!-- Failed suite [Suite] -->

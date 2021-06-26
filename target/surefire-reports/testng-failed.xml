@@ -13,6 +13,13 @@
           <include name="init"/>
         </methods>
       </class> <!-- test.TC004AddToCart -->
+      <class name="test.TC001SignIn">
+        <methods>
+          <include name="teardown"/>
+          <include name="verifyLogin" invocation-numbers="0"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- test.TC001SignIn -->
     </classes>
   </test> <!-- regression(failed) -->
 </suite> <!-- Failed suite [Suite] -->

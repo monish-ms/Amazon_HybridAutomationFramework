@@ -18,7 +18,7 @@ public class TC005DeliverTo extends BaseClass {
 	
 	HomePage hp;
 	
-	@Test (priority =6)
+	@Test (priority =5)
 	public void verifyDeliverToPostalCode() throws InterruptedException
 	{
 		extTest.log(LogStatus.INFO,"DeliverTo PostalCode test has started");
@@ -29,9 +29,10 @@ public class TC005DeliverTo extends BaseClass {
 		hp.clickDeliverToPostalCode("L3S","0B9");
 		extTest.log(LogStatus.INFO, "Deliver to PostalCode has been executed");
 	
+		  hp.clickNavLogo();
 			}
 	
-	@Test (priority =5)
+	@Test (priority =4)
 	public void verifyDeliverToCountry() throws InterruptedException
 	{
 		extTest.log(LogStatus.INFO,"DeliverTo Country test has started");

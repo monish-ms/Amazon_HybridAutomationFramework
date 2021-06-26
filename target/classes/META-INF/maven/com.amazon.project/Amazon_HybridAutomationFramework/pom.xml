@@ -96,6 +96,7 @@
 					<testFailureIgnore> false </testFailureIgnore>
 					<suiteXmlFiles>
 						<suiteXmlFile>src\test\resources\testrunner\regression.xml</suiteXmlFile>
+						<suiteXmlFile>src\test\resources\testrunner\unit.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

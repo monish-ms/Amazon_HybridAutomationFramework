@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="6" total="10" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="45260" started-at="2021-06-25T21:24:06Z" finished-at="2021-06-25T21:24:52Z">
+  <suite name="Suite" duration-ms="28242" started-at="2021-06-26T04:37:52Z" finished-at="2021-06-26T04:38:21Z">
     <groups>
     </groups>
-    <test name="regression" duration-ms="45260" started-at="2021-06-25T21:24:06Z" finished-at="2021-06-25T21:24:52Z">
+    <test name="regression" duration-ms="28242" started-at="2021-06-26T04:37:52Z" finished-at="2021-06-26T04:38:21Z">
       <class name="test.TC002Search">
-        <test-method status="PASS" signature="init()[pri:0, instance:test.TC002Search@4c39bec8]" name="init" is-config="true" duration-ms="12880" started-at="2021-06-25T21:23:54Z" finished-at="2021-06-25T21:24:06Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:test.TC002Search@4c39bec8]" name="init" is-config="true" duration-ms="9294" started-at="2021-06-26T04:37:43Z" finished-at="2021-06-26T04:37:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="verifySearch()[pri:1, instance:test.TC002Search@4c39bec8]" name="verifySearch" duration-ms="3765" started-at="2021-06-25T21:24:06Z" finished-at="2021-06-25T21:24:10Z">
+        <test-method status="PASS" signature="verifySearch()[pri:1, instance:test.TC002Search@4c39bec8]" name="verifySearch" duration-ms="2738" started-at="2021-06-26T04:37:52Z" finished-at="2021-06-26T04:37:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearch -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:test.TC002Search@4c39bec8]" name="teardown" is-config="true" duration-ms="3130" started-at="2021-06-25T21:24:52Z" finished-at="2021-06-25T21:24:55Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:test.TC002Search@4c39bec8]" name="teardown" is-config="true" duration-ms="5623" started-at="2021-06-26T04:38:21Z" finished-at="2021-06-26T04:38:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- test.TC002Search -->
       <class name="test.TC004AddToCart">
-        <test-method status="PASS" signature="verifyAddToCart()[pri:3, instance:test.TC004AddToCart@7ee8290b]" name="verifyAddToCart" duration-ms="24563" started-at="2021-06-25T21:24:20Z" finished-at="2021-06-25T21:24:44Z">
+        <test-method status="PASS" signature="verifyAddToCart()[pri:3, instance:test.TC004AddToCart@7ee8290b]" name="verifyAddToCart" duration-ms="10404" started-at="2021-06-26T04:38:02Z" finished-at="2021-06-26T04:38:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAddToCart -->
       </class> <!-- test.TC004AddToCart -->
       <class name="test.TC001SignIn">
-        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String)[pri:4, instance:test.TC001SignIn@1f59a598]" name="verifyLogin" duration-ms="6531" started-at="2021-06-25T21:24:45Z" data-provider="inputs" finished-at="2021-06-25T21:24:51Z">
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String)[pri:4, instance:test.TC001SignIn@1f59a598]" name="verifyLogin" duration-ms="7064" started-at="2021-06-26T04:38:13Z" data-provider="inputs" finished-at="2021-06-26T04:38:20Z">
           <params>
             <param index="0">
               <value>
@@ -45,7 +45,7 @@
         </test-method> <!-- verifyLogin -->
       </class> <!-- test.TC001SignIn -->
       <class name="test.TC003FilterGiftCards">
-        <test-method status="PASS" signature="verifyGCFilter()[pri:2, instance:test.TC003FilterGiftCards@f79e]" name="verifyGCFilter" duration-ms="6701" started-at="2021-06-25T21:24:12Z" finished-at="2021-06-25T21:24:18Z">
+        <test-method status="PASS" signature="verifyGCFilter()[pri:2, instance:test.TC003FilterGiftCards@f79e]" name="verifyGCFilter" duration-ms="5604" started-at="2021-06-26T04:37:56Z" finished-at="2021-06-26T04:38:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyGCFilter -->

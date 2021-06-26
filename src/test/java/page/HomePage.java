@@ -109,6 +109,7 @@ public class HomePage extends BasePage{
 	
 	public void clickDeliverToPostalCode (String pc1, String pc2) throws InterruptedException
 	{
+		Thread.sleep(4000);
 		BaseClass.wait=  new WebDriverWait(BaseClass.driver,20);
 		BaseClass.wait.until(ExpectedConditions.elementToBeClickable(linkDeliverTo));			
 		linkDeliverTo.click();
@@ -122,10 +123,11 @@ public class HomePage extends BasePage{
 			
 	}
 		public void clickDeliverToCountry() throws InterruptedException
-		{
+		{   
+			//Thread.sleep(4000);
 			BaseClass.wait=  new WebDriverWait(BaseClass.driver,20);
-			BaseClass.wait.until(ExpectedConditions.elementToBeClickable(linkalterDeliverTo));
-			linkalterDeliverTo.click();
+			BaseClass.wait.until(ExpectedConditions.elementToBeClickable(linkDeliverTo));
+			linkDeliverTo.click();
 			Thread.sleep(8000);
 			BaseClass.wait.until(ExpectedConditions.elementToBeClickable(drpCountry));
 			drpCountry.click();
