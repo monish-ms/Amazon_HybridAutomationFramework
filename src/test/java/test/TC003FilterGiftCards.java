@@ -23,7 +23,7 @@ public class TC003FilterGiftCards extends BaseClass {
 	@Test (priority=2)
 	public void verifyGCFilter () throws InterruptedException
 	{
-		
+		app_logs.info("Filter GC  test has started");
 		extTest.log(LogStatus.INFO, "Gift Card test has started");
 		hp= new HomePage(driver);
 		hp.clickGiftCards();
@@ -31,7 +31,7 @@ public class TC003FilterGiftCards extends BaseClass {
 		gcp= new GiftCardsPage(driver);
 		 gcp.clickChkboxFrench();
 		 extTest.log(LogStatus.INFO, "Check box has been clicked");
-		 
+		 app_logs.info("Filter GC test has completed");
 		 
 		
 	}

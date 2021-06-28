@@ -1,0 +1,12 @@
+28/06/2021 01:03:55 LogAmazon_HybridAutomationProject Test suite has launched
+28/06/2021 01:03:55 LogAmazon_HybridAutomationProject Loading the config property file for project
+28/06/2021 01:03:59 LogAmazon_HybridAutomationProject Chrome browser has been launched
+28/06/2021 01:04:05 LogAmazon_HybridAutomationProject Search test has started
+28/06/2021 01:04:46 LogAmazon_HybridAutomationProject Search test has completed
+28/06/2021 01:04:48 LogAmazon_HybridAutomationProject Filter GC  test has started
+28/06/2021 01:04:55 LogAmazon_HybridAutomationProject Filter GC test has completed
+28/06/2021 01:04:56 LogAmazon_HybridAutomationProject AddToCart test has started
+28/06/2021 01:05:14 LogAmazon_HybridAutomationProject AddToCart test has completed
+28/06/2021 01:05:29 LogAmazon_HybridAutomationProject DeliverToCountry test has started
+28/06/2021 01:06:13 LogAmazon_HybridAutomationProject SignIn test has started
+28/06/2021 01:06:57 LogAmazon_HybridAutomationProject Test suite has ended

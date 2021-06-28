@@ -25,6 +25,7 @@ public class TC004AddToCart extends BaseClass {
         @Test (priority=3)
         public void verifyAddToCart() throws InterruptedException
         {
+        	app_logs.info("AddToCart test has started");
         	extTest.log(LogStatus.INFO, "Add to Cart test has started");
         	hp= new HomePage(driver);
         	hp.clickNavLogo();
@@ -41,6 +42,6 @@ public class TC004AddToCart extends BaseClass {
         	extTest.log(LogStatus.INFO, "Product has been added to cart");
         	
         	extTest.log(LogStatus.INFO,"Add to Cart has ended");
-        	
+        	app_logs.info("AddToCart test has completed");
         }
 }

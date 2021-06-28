@@ -9,17 +9,10 @@
       <class name="test.TC005DeliverTo">
         <methods>
           <include name="teardown"/>
-          <include name="verifyDeliverToPostalCode"/>
+          <include name="verifyDeliverToCountry"/>
           <include name="init"/>
         </methods>
       </class> <!-- test.TC005DeliverTo -->
-      <class name="test.TC004AddToCart">
-        <methods>
-          <include name="teardown"/>
-          <include name="verifyAddToCart"/>
-          <include name="init"/>
-        </methods>
-      </class> <!-- test.TC004AddToCart -->
       <class name="test.TC001SignIn">
         <methods>
           <include name="teardown"/>

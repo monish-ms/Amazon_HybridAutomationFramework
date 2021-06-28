@@ -96,7 +96,7 @@ public class TC001SignIn extends BaseClass{
 			
 			hp= new HomePage(driver);
 			
-		
+		  app_logs.info("SignIn test has started");
 			hp.moveToSignIn();
 			//hp.clickSignIn();
            extTest.log(LogStatus.INFO, "Clicked SignIn button");  
@@ -119,6 +119,7 @@ public class TC001SignIn extends BaseClass{
 			System.out.println(hup.getAcctUserName());
 		    extTest.log(LogStatus.INFO,"SignIn test completed");
 			
+		    app_logs.info("SignIn test has completed");
 		    Thread.sleep(1000);
 			
 		} catch (InterruptedException e) {

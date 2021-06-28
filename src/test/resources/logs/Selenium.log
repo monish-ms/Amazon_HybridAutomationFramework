@@ -1,0 +1,37 @@
+01:03:55,835 DEBUG LogAmazon_HybridAutomationProject:54 - Test suite has launched
+01:03:55,838 DEBUG LogAmazon_HybridAutomationProject:58 - Loading the config property file for project
+01:03:59,932 DEBUG LogAmazon_HybridAutomationProject:70 - Chrome browser has been launched
+01:04:05,468  INFO LogAmazon_HybridAutomationProject:24 - Search test has started
+01:04:46,740  INFO LogAmazon_HybridAutomationProject:31 - Search test has completed
+01:04:47,601 DEBUG cache:44 - Couldn't find template in cache for "Extent.ftl"("en_CA", UTF-8, parsed); will try to load it.
+01:04:47,602 DEBUG cache:44 - TemplateLoader.findTemplateSource("Extent_en_CA.ftl"): Not found
+01:04:47,603 DEBUG cache:44 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+01:04:47,604 DEBUG cache:44 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+01:04:47,604 DEBUG cache:44 - Loading template for "Extent.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/monis/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+01:04:48,405  INFO LogAmazon_HybridAutomationProject:26 - Filter GC  test has started
+01:04:55,791  INFO LogAmazon_HybridAutomationProject:34 - Filter GC test has completed
+01:04:56,110 DEBUG cache:44 - Couldn't find template in cache for "Extent.ftl"("en_CA", UTF-8, parsed); will try to load it.
+01:04:56,110 DEBUG cache:44 - TemplateLoader.findTemplateSource("Extent_en_CA.ftl"): Not found
+01:04:56,110 DEBUG cache:44 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+01:04:56,111 DEBUG cache:44 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+01:04:56,112 DEBUG cache:44 - Loading template for "Extent.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/monis/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+01:04:56,150  INFO LogAmazon_HybridAutomationProject:28 - AddToCart test has started
+01:05:14,746  INFO LogAmazon_HybridAutomationProject:45 - AddToCart test has completed
+01:05:29,389 DEBUG cache:44 - Couldn't find template in cache for "Extent.ftl"("en_CA", UTF-8, parsed); will try to load it.
+01:05:29,389 DEBUG cache:44 - TemplateLoader.findTemplateSource("Extent_en_CA.ftl"): Not found
+01:05:29,389 DEBUG cache:44 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+01:05:29,390 DEBUG cache:44 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+01:05:29,390 DEBUG cache:44 - Loading template for "Extent.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/monis/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+01:05:29,415  INFO LogAmazon_HybridAutomationProject:39 - DeliverToCountry test has started
+01:06:11,764 DEBUG cache:44 - Couldn't find template in cache for "Extent.ftl"("en_CA", UTF-8, parsed); will try to load it.
+01:06:11,765 DEBUG cache:44 - TemplateLoader.findTemplateSource("Extent_en_CA.ftl"): Not found
+01:06:11,765 DEBUG cache:44 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+01:06:11,766 DEBUG cache:44 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+01:06:11,766 DEBUG cache:44 - Loading template for "Extent.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/monis/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+01:06:13,098  INFO LogAmazon_HybridAutomationProject:99 - SignIn test has started
+01:06:53,326 DEBUG cache:44 - Couldn't find template in cache for "Extent.ftl"("en_CA", UTF-8, parsed); will try to load it.
+01:06:53,326 DEBUG cache:44 - TemplateLoader.findTemplateSource("Extent_en_CA.ftl"): Not found
+01:06:53,327 DEBUG cache:44 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+01:06:53,327 DEBUG cache:44 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+01:06:53,327 DEBUG cache:44 - Loading template for "Extent.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/monis/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+01:06:57,128 DEBUG LogAmazon_HybridAutomationProject:100 - Test suite has ended
